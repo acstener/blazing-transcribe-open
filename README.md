@@ -138,6 +138,6 @@ Local processing isn't just more private — it's why Blazing Transcribe is fast
 
 ## Links
 
-- [Blazing Transcribe](https://blazingtranscribe.com) — the app
-- [Privacy](https://blazingtranscribe.com/privacy) — visual overview
+- [Blazing Transcribe](https://blazingfasttranscription.com) — the app
+- [Privacy](https://blazingfasttranscription.com/privacy) — visual overview
 - [Twitter](https://x.com/alexchristou_) — questions? reach out
