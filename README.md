@@ -1,5 +1,7 @@
 # Blazing Transcribe — Open Audio Pipeline
 
+> Based on v1.0.4
+
 **Your audio never leaves your Mac.** This document explains exactly how Blazing Transcribe handles your voice data so you can verify our privacy claims.
 
 ## The pipeline
