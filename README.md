@@ -2,7 +2,7 @@
 
 > Based on v1.0.4
 
-**Your audio never leaves your Mac.** This document explains exactly how Blazing Transcribe handles your voice data so you can verify our privacy claims.
+**Your audio never leaves your Mac.** This document explains exactly how Blazing Transcribe handles your voice data so you can verify the privacy claims.
 
 ## The pipeline
 
@@ -117,17 +117,17 @@ Blazing Transcribe makes exactly **three types of network calls**. None involve 
 
 ### Analytics details
 
-We use [TelemetryDeck](https://telemetrydeck.com), a privacy-first analytics provider based in the EU.
+Analytics are handled by [TelemetryDeck](https://telemetrydeck.com), a privacy-first provider based in the EU.
 
-**Event names we send:** `appLaunched`, `transcriptionCompleted`, `recordingStarted`, `engineLoaded`, `recordingModeChanged`, `micToggleUsed`, `modeToggleUsed`, `licenseActivated`, `subscribeClicked`
+**Event names sent:** `appLaunched`, `transcriptionCompleted`, `recordingStarted`, `engineLoaded`, `recordingModeChanged`, `micToggleUsed`, `modeToggleUsed`, `licenseActivated`, `subscribeClicked`
 
 **Basic parameters:** word count per transcription, which recording mode is active, error messages when something breaks.
 
 **Never sent:** transcription text, audio data, microphone input, file contents, or anything personally identifiable. TelemetryDeck doesn't use cookies, doesn't track across apps, and doesn't sell data.
 
-## Why we published this
+## Why I published this
 
-Most transcription apps say "local processing" but give you no way to verify it. We're publishing our architecture and key code excerpts so you can confirm:
+Most transcription apps say "local processing" but give you no way to verify it. I'm publishing the architecture and key code excerpts so you can confirm:
 
 1. Audio goes into an in-memory ring buffer — never written to disk, never sent anywhere
 2. Transcription runs on Apple Neural Engine — fully on-device, no cloud API
@@ -139,4 +139,5 @@ Local processing isn't just more private — it's why Blazing Transcribe is fast
 ## Links
 
 - [Blazing Transcribe](https://blazingtranscribe.com) — the app
-- [Privacy](https://blazingtranscribe.com/privacy) — visual overview of our privacy model
+- [Privacy](https://blazingtranscribe.com/privacy) — visual overview
+- [Twitter](https://x.com/alexchristou_) — questions? reach out
